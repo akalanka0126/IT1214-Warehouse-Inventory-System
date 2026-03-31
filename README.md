@@ -1,39 +1,44 @@
 # IT1214 - Warehouse Inventory System
 
 ## 📌 Project Description
-This is a simple Warehouse Inventory System developed using Java OOP concepts.
+This project is a Warehouse Inventory Management System developed using Java.
+It uses Java Collections Framework (ArrayList) to manage inventory items.
 
-The system allows users to:
-- Add products
-- View products
-- Search products
+## ⚙️ Features
+- Add new items
+- Remove items
+- Update item quantity
+- Search items (by ID or Name)
+- Display all items
 
-This program is implemented without using loops or switch-case statements.
+## 🧠 Technologies Used
+- Java
+- OOP Concepts
+- ArrayList (Collections Framework)
 
-## 🧠 OOP Concepts Used
-- Encapsulation (Product class with private variables)
-- Abstraction (Inventory class handles operations)
-- Object Interaction (Main interacts with Inventory and Product)
+## ▶️ How to Run
 
-## ▶️ How to Run the Program
-
-1. Compile the Java files:
+1. Compile:
    javac *.java
 
-2. Run the program:
-   java Main
+2. Run:
+   java Warehouse
 
 ## 🧾 Sample Output
 
 --- Warehouse Inventory System ---
-1. Add Product
-2. View Products
-3. Search Product
+1. Add Item
+2. Remove Item
+3. Update Quantity
+4. Search Item
+5. View Inventory
+6. Exit
+
 Enter choice: 1
 
-Enter ID: 101
-Enter Name: Sugar
-Enter Quantity: 50
-Product added!
+Enter ID: I001  
+Enter Name: Rice  
+Enter Quantity: 50  
+Enter Price: 120.5  
 
-Program ended.
+Item added successfully!
